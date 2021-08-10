@@ -2,9 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Max Chumakov CV</title>
+  <title>Max Chumakov | RoR developer</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Max Chumakov's CV">
+  <meta name="description" content="Max Chumakov | RoR developer">
   <meta name="author" content="Max Chumakov">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap">
   <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
@@ -35,6 +35,12 @@
         <li>1982 (38 years)</li>
         <li>Place of residence: Ukraine, Kharkiv</li>
         <li>Marital status: married, daughter born in 2015</li>
+        <li>Languages</li>
+            <ul>
+              <li>Ukrainian: speak perfectly</li>
+              <li>Russian: speak perfectly</li>
+              <li>English: reading technical documentation</li>
+          </ul>
       </ul>
     </div>
     <div class="three columns">
@@ -42,38 +48,79 @@
     </div>
   </div>
 <hr>
+<h2>Shortly about myself</h2>
+  <p>Hi, my name is Maxim. I am a systems analyst engineer with 20 years of experience in various IT fields in both the
+  private and public sector. I rarely encountered programming in my work. But by a rare coincidence, I had a chance to
+  study Ruby and Ruby on Rails and my choice fell on a course from super cool guys, developers and mentors -
+  <a href="https://goodprogrammer.ru">Goodprogrammer.</a> Having successfully completed their intensive course,
+  I can firmly call myself a RoR developer! The projects, as always, can be found on GitHUb (the icon is just above)</p>
+<hr>
 <h2>Purpose</h2>
   <p>Ruby on Rails developer ready to work in a team on complex and interesting projects.</p>
 <hr>
-<h2>Skills</h2>
+<h2 align="center">Technical skills</h2>
 <div class="row">
   <div class="six columns">
     <div class="progress">
-      <p>Ruby</p>
+      <p><strong>Ruby</strong></p>
+      <i>OOP, Codestyle, Debug, Gems</i>
       <div id="ruby"></div>
-      <p>Ruby on Rails</p>
+
+      <p><strong>Ruby on Rails</strong></p>
+      <i>MVC, REST, CRUDL, Bundle</i>
       <div id="rails"></div>
-      <p>OOP/MVC</p>
-      <div id="oop_mvc"></div>
-      <p>Tests</p>
+
+      <p><strong>IDE</strong></p>
+      <i>RubyMine, VSCode, Sublime Text</i>
+      <div id="ide"></div>
+
+      <p><strong>Tests</strong></p>
+      <i>RSpec, minitest, TDD, BDD, Factory_bot</i>
       <div id="tests"></div>
     </div>
   </div>
 <div class="six columns">
     <div class="progress">
-      <p>Frontend</p>
+      <p><strong>Frontend</strong></p>
+      <i>CSS, HTML, Bootstrap, Webpacker</i>
       <div id="frontend"></div>
-      <p>GIT</p>
+
+      <p><strong>GIT</strong></p>
+      <i>push, pull, amend, rebase, PR, GitHub</i>
       <div id="git"></div>
-      <p>DevOps</p>
+
+      <p><strong>DevOps</strong></p>
+      <i>VPS, Nginx, Passenger, Heroku, Capistrano</i>
       <div id="devops"></div>
-      <p>Database</p>
+
+      <p><strong>Database</strong></p>
+      <i>SQL requests, SQlite3, PostgreSQL</i>
       <div id="db"></div>
     </div>
   </div>
 </div>
 <hr>
-<h2> Personal qualities</h2>
+<h2 align="center">Components skills</h2>
+  <div class="row">
+    <div class="six columns">
+    <ul>
+      <li><strong>Active Record</strong> - responsible for the presentation of business logic and application data</li>
+      <li><strong>Action Mailer</strong> - sending email from app</li>
+      <li><strong>Active Job with Redis & Resque</strong> - queuing and running background jobs</li>
+      <li><strong>Action Cable</strong> - implements communication between server and client using the WebSocket protocol</li>
+    </ul>
+    </div>
+    <div class="six columns">
+    <ul>
+      <li><strong>Devise, Pundit, OmniAuth</strong> - authentication and authorization</li>
+      <li><strong>Carrierwave, Rmagick, AWS</strong> - image processing and loading</li>
+      <li><strong>I18n</strong> - internationalization of any app</li>
+      <li><strong>Credentials</strong> - confidential information is safe</li>
+    </ul>
+    </div>
+  </div>
+<hr>
+<h2 align="center">Soft skills</h2>
   <div class="row">
     <div class="six columns">
     <ul>
@@ -92,22 +139,53 @@
   </div>
 <hr>
 <div class="twelve columns">
+  <h2 align="center">Some projects</h2>
+    <p><b>ukraskme</b>
+      <a href="https://ukraskme.herokuapp.com/"><img src="images/link.svg" width="40" height="40" alt="app"></a>
+      <a href="https://github.com/ukrmaxim/askme"><img src="images/github.svg" width="40" height="40" alt="github"></a>
+    </p>
+    <p><em>Developed on: Ruby 3.0.0, Rails 6.1.3</em></p>
+    <p>A social network app in which it is possible to register, ask questions to users and answer questions. Anonymous
+    questions are also available. The user can customize his profile: change the background color, choose an avatar,
+    change the password. Security from spam and bots is provided by the <b>recaptcha v.3</b>
+    To simplify the work of users with the application, a hashtag service is used.</p>
+    <button disabled>I18n</button>&nbsp;<button disabled>dotenv</button>&nbsp;<button disabled>postgresql</button>
+    <p><b>ukrbbq</b>
+      <a href="https://ukrbbq.herokuapp.com/"><img src="images/link.svg" width="40" height="40" alt="app"></a>
+      <a href="https://github.com/ukrmaxim/bbq"><img src="images/github.svg" width="40" height="40" alt="github"></a>
+    </p>
+    <p><em>Developed on: Ruby 3.0.0, Rails 6.1.3</em></p>
+    <p>A social network application with which users can create events, subscribe to them, leave comments on events,
+    as well as add photos to them. Access restriction to the event by pin code is available. To view the original size
+    of the photo, they are displayed in the form of a gallery. The address of the event is displayed on the built-in map
+    using <b>Yandex.map</b>. Users receive information about updating events (added a comment, photo, or a new subscriber for the event) by email.
+    Authorization via <b>email</b> and <b>Github</b> is available in app. In a production environment,
+    <b>Amazon S3</b> is used to store photos added to the event.</p>
+    <button disabled>bootstrap 4.6</button>&nbsp;<button disabled>webpacker 5</button>&nbsp;
+    <button disabled>postgresql</button>&nbsp;<button disabled>devise</button>&nbsp;
+    <button disabled>carrierwave</button>&nbsp;<button disabled>omniauth</button>&nbsp;
+    <button disabled>pundit</button>&nbsp;<button disabled>I18n</button>&nbsp;<button disabled>redis/resque</button>&nbsp;
+    <button disabled>capistrano</button>&nbsp;<button disabled>rspec</button>&nbsp;
+    <button disabled>action mailer</button>&nbsp;<button disabled>active job</button>&nbsp;
+    <button disabled>credentials</button>&nbsp;
+  <hr>
   <h2>Experience</h2>
     <p><b>Ruby on Rails developer</b></p>
     <p><em>May, 2021 &ndash; until now</em></p>
     <h4>Responsibilities</h4>
     <ul>
-      <li>development of educational applications</li>
+      <li>development of educational and real app</li>
       <li>Rails application design</li>
       <li>deployment Rails applications on VPS and Heroku</li>
       <li>layout landing page</li>
+      <li>frontend development with Bootstrap, JS, JQuery & webpack</li>
     </ul>
   <hr>
     <p><b>Freelancer</b></p>
     <p><em>February, 2020 &ndash; May, 2021</em></p>
     <h4>Responsibilities</h4>
     <ul>
-      <li>development, layout and support of online stores on CMS Wordpress, OpenCart, Tilda</li>
+      <li>development, layout and support sites on CMS Wordpress, OpenCart, Tilda, Wix</li>
       <li>administration of VPS/VDS servers</li>
       <li>preparation and writing of technical specifications for the design of telegram bots and an online store
       for the sale of digital goods, management of the development of these products</li>
@@ -121,7 +199,7 @@
     <ul>
       <li>interaction with the leadership of the Territorial Administration of the State Judicial Administration in
         the Kharkiv region, chairmen, heads of the apparatus of local general and specialized courts in Kharkov and
-        areas on automated document management and electronic litigation, statistical reporting and information
+        region on automated document management and electronic litigation, statistical reporting and information
         technology in courts</li>
       <li>advice and support to the judiciary and penal institutions Kharkiv region in matters of effective use
         video conferencing systems during court hearings. Took part in the design, development and testing of the
@@ -130,13 +208,6 @@
       <li>design, construction, support and administration of local area networks in courts of the Kharkiv region.
         Installation, administration, remote support servers in the courts of the Kharkiv region. Cybersecurity and
         security of information technologies in the courts of the Kharkiv region</li>
-    </ul>
-    <h5>Additional tasks</h5>
-    <ul>
-      <li>preparation and holding of training seminars, development of instructions for court staff, seminars for
-      students of the National schools of judges of Ukraine</li>
-      <li>providing advice on the application of the Regulations on automated court document circulation system</li>
-      <li>organization and documentary support of the regional service support in the Kharkiv region</li>
     </ul>
   <hr>
     <p><b>State Enterprise <a href="https://ics.gov.ua/ics/">"Information Courts Systems"</a></b></p>
@@ -148,31 +219,26 @@
         administration, remote support of servers in courts Kharkiv region, technical support and maintenance of
         computer and office equipment for the courts of the Kharkiv region</li>
       <li>support and configuration of technical means of fixing trials</li>
-    </ul>
-    <h5>Additional tasks</h5>
-    <ul>
       <li>participation in the development, testing and pilot operation of an automated system document
-      flow of the court in the Court of Appeal of Kharkiv areas</li>
+      flow of the court in the Kharkiv Court of Appeal</li>
     </ul>
   <hr>
     <p><b>State Enterprise <a href="https://ics.gov.ua/ics/">"Information Courts Systems"</a></b></p>
-    <p><b>Position &ndash; engineer of the appellate court of the Kharkiv region</b></p>
+    <p><b>Position &ndash; engineer of the Kharkiv Court of Appeal</b></p>
     <p><em>July, 2007 &ndash; September, 2008</em></p>
     <h4>Responsibilities</h4>
     <ul>
       <li>modernization and support of the local network, installation and administration servers, technical support
-        and maintenance of computer and office equipment, technical means of fixing trials in the Court of Appeal of
-        Kharkiv areas</li>
+        and maintenance of computer and office equipment, technical means of fixing trials in the CKharkiv Court of Appeal</li>
     </ul>
   <hr>
     <p><b>State Enterprise "Judicial Information Center"</b></p>
-    <p><b>Position &ndash; technician of the appellate court of the Kharkiv region</b></p>
+    <p><b>Position &ndash; technician of the Kharkiv Court of Appeal</b></p>
     <p><em>March, 2006 &ndash; July, 2007</em></p>
     <h4>Responsibilities</h4>
     <ul>
       <li>modernization and support of the local network, installation and administration servers, technical support
-        and maintenance of computer and office equipment, technical means of fixing trials in the Court of Appeal of
-        Kharkiv areas</li>
+        and maintenance of computer and office equipment, technical means of fixing trials in the Kharkiv Court of Appeal</li>
     </ul>
   <hr>
   <div>
@@ -215,8 +281,8 @@
   height: '10px',
   // fillBackgroundColor: '#DA4453'
   });
-  $('#oop_mvc').LineProgressbar({
-  percentage:80,
+  $('#ide').LineProgressbar({
+  percentage:90,
   radius: '2px',
   height: '10px',
   });
