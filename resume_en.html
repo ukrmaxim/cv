@@ -44,9 +44,6 @@
     <div class="three columns">
       <img src="images/photo.jpg" alt="Max Chumakov" width="200"/>
     </div>
-    <div class="three columns">
-      <a href="index.html" target="_self"><img src="images/ua.png" alt="UK"/></a>
-    </div>
   </div>
 <hr>
 <h4>Shortly about myself</h4>
@@ -147,18 +144,7 @@
   <h4 align="center">Some projects</h4>
     <p><b>MatisPay</b></p>
      <p><em>Developed on: Ruby 3.1.2, Rails 6.1.6</em></p>
-     <p>Payment aggregator - a full-fledged system of receiving and making online payments. The system has several modules, namely:
-       <b>Backend API Server</b> is the main module of the system. This module has a database with encryption of all confidential data.
-       All system modules communicate with it only through API requests in json format.
-       <b>Client Frontend Server</b> - personal account of the system client. Contains information on projects, wallets,
-       payments, payouts, methods of payments and payouts, tickets and disputes.
-       <b>Admin Frontend Server</b> - the personal account of the system administrator. Creation and management of clients, projects,
-       wallets, methods of payments and payouts, disputes, tickets, messages.
-       <b>Processing Server</b> - payment and payout processing module. It has a direct connection with the API of a bank or other payment system.
-       Has its own separate database with encryption of all confidential data.
-       <b>Payments API Server</b> is a module responsible for creating payments and payouts. Also includes payment form and pages for
-       successful and unsuccessful payment. Information is exchanged with Processing Server only through API requests in json format.
-       Information exchange between modules takes place only from trusted IPs.</br>
+     <p>Payment aggregator - a full-fledged system of receiving and making online payments.</br>
        In this project, I participate in the design of the system as a whole and directly develop the backend for the Admin Frontend Server
        and Client Frontend Server and frontend for these modules using the Bootstrap template.
        This system is still under development.
@@ -169,14 +155,7 @@
     <button disabled>rspec</button>&nbsp;<button disabled>credentials</button>&nbsp;
     <p><b>Team Space</b></p>
      <p><em>Developed on: Ruby 3.1.1, Rails 6.1.4</em></p>
-     <p>CRM system for business automation and company work. The system has two-factor authentication with the sending of an OTP code by
-       <b>Telegram bot</b> to the Telegram group. Due to roles, users' access to certain sections of the system is divided.
-       In the system, it is possible to create reminders about payments, or simply reminders about any tasks or meetings that will be
-       sent to the Telegram group. Clients and their projects are added to the system. It is possible to keep minimal accounting
-       for the movement of funds on the company's accounts, adding financial transactions, or issuing invoices to customers for payment.
-       All sensitive and critical data in the database is encrypted at the application level. It is possible to attach files to many system records.</br>
-       In the future, it is planned to improve the functionality of receiving applications from forms from the company's websites, to develop an e-mail collector,
-       sending e-mail from the system and, if necessary, other system functionality for greater automation of the work of employees.
+     <p>CRM system for business automation and company work. Working with clients, documents, creating reminders, accounting of the movement of company funds
        This system is completely designed and developed by me personally.
      </p>
     <button disabled>bootstrap 5.x</button>&nbsp;<button disabled>webpacker 5.x</button>&nbsp;<button disabled>action text</button>&nbsp;
@@ -189,11 +168,7 @@
     </p>
     <p><em>Developed on: Ruby 3.0.0, Rails 6.1.3</em></p>
      <p>A social network where users can create events, subscribe to them, leave comments on events,
-       and also add photos to them. Event access restriction by pin code is available. To view original size
-       photos, they are displayed as a gallery. The address of the event is displayed on the built-in map.
-       Users receive information about event updates (added a comment, a photo or a new subscriber to the event) by email.
-       Registration and authentication using <b>e-mail</b> or <b>Github</b> is available in the application. In a production environment,
-       <b>Amazon S3</b> service is used to store photos added to the event.
+       and also add photos to them.
        This project was developed by me personally during my studies.
      </p>
      <button disabled>bootstrap 4.x</button>&nbsp;<button disabled>webpacker 5.x</button>&nbsp;
@@ -205,10 +180,7 @@
       <a href="https://github.com/ukrmaxim/askme"><img src="images/github.svg" width="40" height="40" alt="github"></a>
     </p>
     <p><em>Developed on: Ruby 3.1.2, Rails 6.1.3</em></p>
-     <p>A social network with the ability to ask and answer questions. Registration is available. Questions from an anonymous user are also possible.
-       A self-developed mechanism is used for user authentication. The user can customize his profile,
-       changing the background, avatar, password. Spam and bot protection implemented with <b>recaptcha v.3</b>
-       To simplify the work of users with the application, the service of hashtags is used. This project was developed by me personally during my studies.
+     <p>A social network with the ability to ask and answer questions. This project was developed by me personally during my studies.
      </p>
       <button disabled>I18n</button>&nbsp;<button disabled>dotenv</button>&nbsp;<button disabled>postgresql</button>
   <hr>
